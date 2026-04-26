@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.env
+*.egg-info/
+dist/
+build/
+
+# Node
+node_modules/
+dist/
+.env.local
+.env.production
+
+# Banco de dados
+*.db
+*.sqlite3
+
+# Stockfish (binários não são versionados)
+stockfish/engines/
+
+# Relatórios gerados
+reports/output/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# Claude Code
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Alembic (manter migrations versionadas)
+# alembic/versions/*.py
